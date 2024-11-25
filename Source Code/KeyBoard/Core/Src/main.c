@@ -115,6 +115,7 @@ int main(void)
 	KeyboardCTRL();				//键盘控制
 	RGB_ColorCtrl(13);			//RBG控制
 	CTRL_KeyStatusRefresh();	//刷新控制按键并更新控制状态
+	HAL_Delay(2);				//短暂延时
 
     /* USER CODE END WHILE */
 

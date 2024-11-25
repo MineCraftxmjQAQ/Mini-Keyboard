@@ -138,7 +138,7 @@ void RGB_ColorCtrl(uint16_t Pixel_Len)
 		Luminancelimit_Mode = 0;
 		RBGChange_Mode = 0;
 		
-		RGBChangeSpeed = RGBChangeSpeedList[4];
+		RGBChangeSpeed = RGBChangeSpeedList[5];
 	}
 	else
 	{
