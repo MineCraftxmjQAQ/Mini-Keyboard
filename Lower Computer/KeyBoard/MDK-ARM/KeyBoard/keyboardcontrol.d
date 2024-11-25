@@ -1,4 +1,6 @@
 keyboard\keyboardcontrol.o: ..\Encapsulation\Src\KeyboardControl.c
+keyboard\keyboardcontrol.o: ../Encapsulation/Inc/CTRL.h
+keyboard\keyboardcontrol.o: ../Core/Inc/main.h
 keyboard\keyboardcontrol.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h
 keyboard\keyboardcontrol.o: ../Core/Inc/stm32f1xx_hal_conf.h
 keyboard\keyboardcontrol.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h
@@ -24,10 +26,15 @@ keyboard\keyboardcontrol.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_co
 keyboard\keyboardcontrol.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h
 keyboard\keyboardcontrol.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h
 keyboard\keyboardcontrol.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h
+keyboard\keyboardcontrol.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h
+keyboard\keyboardcontrol.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h
+keyboard\keyboardcontrol.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h
+keyboard\keyboardcontrol.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h
 keyboard\keyboardcontrol.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h
 keyboard\keyboardcontrol.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd.h
 keyboard\keyboardcontrol.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_usb.h
 keyboard\keyboardcontrol.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd_ex.h
+keyboard\keyboardcontrol.o: ../Encapsulation/Inc/KeyboardControl.h
 keyboard\keyboardcontrol.o: ../Middlewares/ST/STM32_USB_Device_Library/Class/HID/Inc/usbd_hid.h
 keyboard\keyboardcontrol.o: ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h
 keyboard\keyboardcontrol.o: ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h
@@ -35,8 +42,6 @@ keyboard\keyboardcontrol.o: ../USB_DEVICE/Target/usbd_conf.h
 keyboard\keyboardcontrol.o: D:\Program Files\Keil5\ARM\ARMCC\Bin\..\include\stdio.h
 keyboard\keyboardcontrol.o: D:\Program Files\Keil5\ARM\ARMCC\Bin\..\include\stdlib.h
 keyboard\keyboardcontrol.o: D:\Program Files\Keil5\ARM\ARMCC\Bin\..\include\string.h
-keyboard\keyboardcontrol.o: ../Core/Inc/main.h
 keyboard\keyboardcontrol.o: ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h
 keyboard\keyboardcontrol.o: ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h
 keyboard\keyboardcontrol.o: ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ctlreq.h
-keyboard\keyboardcontrol.o: ..\Encapsulation\Inc\KeyboardControl.h

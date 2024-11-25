@@ -1,0 +1,36 @@
+keyboard\rtc.o: ../Core/Src/rtc.c
+keyboard\rtc.o: ../Core/Inc/rtc.h
+keyboard\rtc.o: ../Core/Inc/main.h
+keyboard\rtc.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h
+keyboard\rtc.o: ../Core/Inc/stm32f1xx_hal_conf.h
+keyboard\rtc.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h
+keyboard\rtc.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h
+keyboard\rtc.o: ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h
+keyboard\rtc.o: ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h
+keyboard\rtc.o: ../Drivers/CMSIS/Include/core_cm3.h
+keyboard\rtc.o: D:\Program Files\Keil5\ARM\ARMCC\Bin\..\include\stdint.h
+keyboard\rtc.o: ../Drivers/CMSIS/Include/cmsis_version.h
+keyboard\rtc.o: ../Drivers/CMSIS/Include/cmsis_compiler.h
+keyboard\rtc.o: ../Drivers/CMSIS/Include/cmsis_armcc.h
+keyboard\rtc.o: ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h
+keyboard\rtc.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h
+keyboard\rtc.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h
+keyboard\rtc.o: D:\Program Files\Keil5\ARM\ARMCC\Bin\..\include\stddef.h
+keyboard\rtc.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h
+keyboard\rtc.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h
+keyboard\rtc.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h
+keyboard\rtc.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h
+keyboard\rtc.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h
+keyboard\rtc.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h
+keyboard\rtc.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h
+keyboard\rtc.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h
+keyboard\rtc.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h
+keyboard\rtc.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h
+keyboard\rtc.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h
+keyboard\rtc.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h
+keyboard\rtc.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h
+keyboard\rtc.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h
+keyboard\rtc.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h
+keyboard\rtc.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd.h
+keyboard\rtc.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_usb.h
+keyboard\rtc.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd_ex.h

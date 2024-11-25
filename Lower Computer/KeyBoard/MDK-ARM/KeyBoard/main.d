@@ -25,10 +25,17 @@ keyboard\main.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h
 keyboard\main.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h
 keyboard\main.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h
 keyboard\main.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h
+keyboard\main.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h
+keyboard\main.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h
+keyboard\main.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h
+keyboard\main.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h
 keyboard\main.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h
 keyboard\main.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd.h
 keyboard\main.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_usb.h
 keyboard\main.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd_ex.h
+keyboard\main.o: ../Core/Inc/dma.h
+keyboard\main.o: ../Core/Inc/rtc.h
+keyboard\main.o: ../Core/Inc/tim.h
 keyboard\main.o: ../Core/Inc/usart.h
 keyboard\main.o: ../USB_DEVICE/App/usb_device.h
 keyboard\main.o: ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h
@@ -37,4 +44,11 @@ keyboard\main.o: D:\Program Files\Keil5\ARM\ARMCC\Bin\..\include\stdio.h
 keyboard\main.o: D:\Program Files\Keil5\ARM\ARMCC\Bin\..\include\stdlib.h
 keyboard\main.o: D:\Program Files\Keil5\ARM\ARMCC\Bin\..\include\string.h
 keyboard\main.o: ../Core/Inc/gpio.h
-keyboard\main.o: ..\Encapsulation\Inc\KeyboardControl.h
+keyboard\main.o: ../Encapsulation/Inc/KeyboardControl.h
+keyboard\main.o: ../Middlewares/ST/STM32_USB_Device_Library/Class/HID/Inc/usbd_hid.h
+keyboard\main.o: ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h
+keyboard\main.o: ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h
+keyboard\main.o: ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h
+keyboard\main.o: ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ctlreq.h
+keyboard\main.o: ../Encapsulation/Inc/RGB.h
+keyboard\main.o: ../Encapsulation/Inc/CTRL.h
