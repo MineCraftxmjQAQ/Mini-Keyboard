@@ -1,4 +1,4 @@
-# Mini-Keyboard
+# Mini-Keyboard-Of-STM32
 使用STM32F103C8T6作为主控的音游小键盘  
   
 硬件:  
