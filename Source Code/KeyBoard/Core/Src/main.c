@@ -56,7 +56,6 @@
 
 /* Private function prototypes -----------------------------------------------*/
 void SystemClock_Config(void);
-
 /* USER CODE BEGIN PFP */
 
 /* USER CODE END PFP */
@@ -101,10 +100,9 @@ int main(void)
   MX_TIM1_Init();
   MX_TIM3_Init();
   MX_RTC_Init();
-  
   /* USER CODE BEGIN 2 */
-  RGB_Init();					//RGB初始化
-  CTRL_Init();					//控制按键初始化
+  RGB_Init();					//RGB初始�?
+  CTRL_Init();					//控制按键初始�?
   
   /* USER CODE END 2 */
 
@@ -114,7 +112,7 @@ int main(void)
   {
 	KeyboardCTRL();				//键盘控制
 	RGB_ColorCtrl(13);			//RBG控制
-	CTRL_KeyStatusRefresh();	//刷新控制按键并更新控制状态
+	CTRL_KeyStatusRefresh();	//刷新控制按键并更新控制状�?
 	HAL_Delay(2);				//短暂延时
 
     /* USER CODE END WHILE */
